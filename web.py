@@ -11,7 +11,8 @@ def add_todo():
 
 st.title("My todo app")
 st.subheader("This is my toto app")
-st.write("this is a simple text")
+st.write("this is a <b>simple text</b>",
+         unsafe_allow_html=True)
 
 # st.checkbox("Todo1")
 # st.checkbox("Todo2")
